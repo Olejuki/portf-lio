@@ -1,0 +1,263 @@
+/*estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    padding: 20px;
+    background-color: rgb(202, 199, 199);
+    border: 2px solid red;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{ font-size: 38px;
+    text-align: center;
+}
+
+/*cabeçalho e menu*/
+
+nav a{
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+ .me{
+    width: 200px;
+    border: 3px solid red;
+    border-radius: 50%;}
+
+
+header h1{
+    padding-top: 5px;
+}
+
+/*estilo sobre mim */
+
+section{
+    padding: 40px 4%;
+}
+
+section.mim .flex{
+    align-items: center;
+    justify-content: center; 
+    gap: 90px;
+}
+
+.mim h2{
+    color: red;
+    font-weight: bolder;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.mim .text-mim p{
+    padding-top: 20px;
+    font-size: 28px;
+    text-align: justify;
+}
+
+
+.mim .img-mim img{
+    width: 350px;
+    height: auto;
+    position: relative;
+    padding: 1%;
+    border: 2px solid red;
+    border-radius: 90px;
+}
+
+/*Estilo formação*/
+
+section.formacao{
+    padding: 40px 4%;
+
+}
+
+section.formacao .flex{
+    gap: 40px;
+
+}
+
+.formacao .especialidades{
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.formacao .especialidades i{
+    color: red;
+font-size: 60px;
+}
+
+.formacao .especialidades h3{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 15px 0 ;
+
+}
+
+/*Estilo projeto*/
+section.projetos{
+    padding: 40px 4%;
+
+}
+
+
+section.projetos .flex p{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.projetos .teste{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid red;
+    border-radius: 10%;
+    
+   
+}
+.projetos .teste img{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.teste i{color: red;
+    font-size: 30px; }
+
+    
+.sep{
+    border-top: 2px solid red;
+}
+
+
+
+
+/*Estilo contato*/
+
+section.contato{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    border: 2px solid red;
+    color: white;
+    font-size: 18px;
+    background-color:rgb(65, 64, 62);
+}
+
+form textarea{
+    resize: none;
+    max-height: 150px;
+}
+
+form .botao{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+form .botao input{
+    width: 120px;
+    background-color: red;
+    color: black;
+   font-weight: 700;
+    cursor: pointer;}
+
+form .botao input:hover{
+    transform: scale(1.05);
+}
+
+
+/*footer*/
+
+.footer{
+    padding: 40px 4%;}
+
+
+footer .linha p{
+        color: red;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(202, 199, 199);
+    }
+
+footer .linha{
+    padding: 20px 0;
+
+    }
+
+    .b{
+        border-top: 2px solid red;
+    }
+
+    .linha img{
+        width: 150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+
+
+
